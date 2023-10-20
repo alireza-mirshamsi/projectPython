@@ -334,3 +334,28 @@
 #     a,b = b, a+b
 #     i += 1
 
+# n = float(input("n: "))
+# m = n
+# while True:
+#     s = input("Do you continue? ")
+#     if s.lower() == "no":
+#         break
+#     n = float(input("n: "))
+#     if n < m:
+#         m = n
+
+# print(m, "is smallest number!")
+
+# n = int(input("n: "))
+# i=2
+# if n > 1:
+#     while i < n:
+#         if n % i == 0:
+#             print(n, "is not a prime number!")
+#             break
+#         i += 1
+#     else:
+#         print(n, " is a prime number!")
+# else:
+#     print("is not prime number!")
+
