@@ -359,3 +359,26 @@
 # else:
 #     print("is not prime number!")
 
+# i=1
+# while i <= 10:
+#     j=1
+#     while j <= 10:
+#         print("\t", j)
+#         j += 1
+#     print(i)
+#     i += 1
+
+# l = ["reza", "neda", "sahel", "ali"]
+# i = 0
+# while i < len(l):
+#     print(l[i])
+#     i += 1
+
+i=1
+while i <= 10:
+    j = 1
+    while j <= 10:
+        print(i*j, end="\t")
+        j += 1
+    print()
+    i += 1
